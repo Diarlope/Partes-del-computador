@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partes de los Computadores</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #000000;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: #000000;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 1rem auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 2rem;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        /* Grid Layout for Sections (Larger Screens) */
+        @media (min-width: 768px) {
+            section {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+                align-items: start;
+            }
+
+            section:nth-child(even) {
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas: "text image";
+            }
+
+            section:nth-child(odd) {
+                grid-template-areas: "image text";
+            }
+
+            section>div {
+                grid-area: text;
+            }
+
+            section>img {
+                grid-area: image;
+            }
+
+            img {
+                margin: 0;
+            }
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Partes de los Computadores</h1>
+        <p>De: Diego Armando Lozano Perez Para: Carlos Lugo Neiva-Huila FET 2025</p>
+    </header>
+
+    <main>
+        <section id="memoria-ram-1">
+            <h2>Memoria pc del profesor</h2>
+            <img src="Imagen de WhatsApp 2025-03-29 a las 14.22.48_270568c0.jpg" alt="Memoria pc del profesor">
+            <p><strong>Samsung:</strong> Este es el fabricante del módulo de memoria. [cite: 2]</p>
+            <p><strong>1GB 1Rx8 PC3-10600S-09-10-ZZZ:</strong> Esto especifica la capacidad y el tipo del módulo: [cite: 3]</p>
+            <ul>
+                <li><strong>1GB:</strong> El módulo de memoria tiene una capacidad de 1 Gigabyte. [cite: 3]</li>
+                <li><strong>1Rx8:</strong> Indica el rango y el ancho del módulo. [cite: 4] "1R" significa que es un módulo de un solo rango y "x8" significa que los chips de memoria tienen un ancho de 8 bits. [cite: 4, 5]</li>
+                <li><strong>PC3-10600S:</strong> Esto indica el tipo y la velocidad de la memoria. [cite: 6]
+                    <ul>
+                        <li><strong>PC3:</strong> Significa memoria DDR3. [cite: 6]</li>
+                        <li><strong>10600:</strong> Indica el ancho de banda del módulo en MB/s (aproximadamente 10,6 GB/s). [cite: 7]</li>
+                        <li><strong>S:</strong> Significa que es un SODIMM (Small Outline Dual In-line Memory Module), que normalmente se utiliza en computadoras portátiles. [cite: 8]</li>
+                    </ul>
+                </li>
+                <li><strong>-09-10-ZZZ:</strong> Es probable que estas sean especificaciones de tiempo (latencia CAS, retraso de RAS a CAS, precarga de RAS) y potencialmente otros códigos internos. [cite: 9]</li>
+                <li><strong>M471B2873FHS-CH9:</strong> Este es el número de modelo específico del módulo de memoria Samsung. [cite: 10]</li>
+                <li><strong>1117:</strong> Es probable que se trate de un código de fecha que indica la semana (11) y el año (2017) de fabricación. [cite: 11]</li>
+                <li><strong>Hecho en China:</strong> El módulo fue fabricado en China. [cite: 12]</li>
+            </ul>
+        </section>
+
+        <section id="memoria-ram-2">
+            <h2>Memoria pc de Yobany</h2>
+            <img src="Imagen de WhatsApp 2025-03-29 a las 14.23.12_931c576c.jpg" alt="Memoria pc de Yobany">
+            <ul>
+                <li><strong>CT: RBBNB95H1ZIEIM:</strong> Es probable que sea un número de serie o código de producto único para este módulo específico. [cite: 13]</li>
+                <li><strong>DP/N 00000-001:</strong> Podría ser un número de pieza de Dell (DP/N), lo que sugiere que este módulo podría haber sido diseñado originalmente para un sistema Dell. [cite: 14] El "00000-001" es un marcador de posición y no proporciona información específica sobre la memoria. [cite: 15]</li>
+                <li><strong>MEMORIA 2GB:</strong> Esto indica claramente que la capacidad del módulo de memoria es de 2 Gigabytes. [cite: 16]</li>
+                <li><strong>Rev A.00:</strong> Esto indica una revisión de hardware del módulo. [cite: 17]</li>
+                <li><strong>Código de datos: B81044:</strong> Este es un código de fecha. [cite: 18]
+                    <ul>
+                        <li><strong>B8:</strong> Probablemente indica la ubicación de fabricación o una división específica. [cite: 19]</li>
+                        <li><strong>10:</strong> Representa el año de fabricación, que es 2010. [cite: 20]</li>
+                        <li><strong>44:</strong> Representa la semana de fabricación, que es la semana número 44 de 2010 (alrededor de fines de octubre/principios de noviembre). [cite: 21]</li>
+                    </ul>
+                </li>
+                 <li><strong>2010/11/02:</strong> Esta es otra representación de la fecha de fabricación: 2 de noviembre de 2010. [cite: 22]</li>
+            </ul>
+        </section>
+
+        <section id="super-io-controller">
+            <h2>Controlador Super I/O - ITE IT8987E</h2>
+            <img src="Imagen de WhatsApp 2025-03-29 a las 14.25.12_10b35b62.jpg" alt="Controlador Super I/O ITE IT8987E">
+            <p>La imagen muestra una sección de la placa base de una computadora portátil. [cite: 23] El chip más prominente en el centro es un controlador Super I/O ITE IT8987E. [cite: 24]</p>
+            <p>Esto es lo que podemos ver a partir de las marcas en el chip:</p>
+            <ul>
+                <li><strong>ITE:</strong> Este es el fabricante, ITE Tech. [cite: 25, 26] Inc. , una empresa taiwanesa especializada en controladores de E/S y otras soluciones integradas. [cite: 26]</li>
+                <li><strong>IT8987E:</strong> Este es el número de modelo específico del controlador Super I/O. [cite: 27]</li>
+                <li><strong>L701-CXS:</strong> Es probable que se trate de un código de revisión o paso específico para este chip. [cite: 28, 29] El fabricante utiliza estos códigos para el seguimiento interno y pueden indicar pequeñas variaciones o mejoras. [cite: 29]</li>
+                <li><strong>S404XA:</strong> Es probable que sea un código de fecha o un número de lote que indica cuándo y dónde se fabricó este chip específico. [cite: 30]</li>
+            </ul>
+        </section>
+
+        <section id="motherboard-components">
+            <h2>Componentes de la Placa Base </h2>
+            <img src="Imagen de WhatsApp 2025-03-29 a las 14.26.58_6bdd4785.jpg" alt="Componentes de la Placa Base">
+            <ul>
+                <li><strong>Inductores (Bobinas):</strong> Los dos componentes rectangulares grandes, identificados como "R-170" y "DOC3", son inductores. [cite: 31, 32, 33] Se trata de componentes eléctricos pasivos que almacenan energía en un campo magnético cuando la corriente eléctrica fluye a través de ellos. [cite: 32, 33] Ellos Se utiliza comúnmente en circuitos de regulación de potencia para suavizar la corriente y reducir el ruido. [cite: 33]</li>
+                <li><strong>Condensadores:</strong> Se observan varios componentes más pequeños, incluyendo los cilíndricos con marcas. [cite: 34, 35, 36, 37] El de color rosa a la izquierda está etiquetado como "6J4 VLPS 330 2.5V". [cite: 35, 36, 37] Probablemente se trate de un condensador de tantalio o electrolítico con una capacitancia de 330 µF (microfaradios) y una tensión nominal de 2.5 V. Los condensadores almacenan energía eléctrica en un campo eléctrico y también son cruciales para filtrar y suavizar la tensión en los circuitos de potencia. [cite: 35, 36, 37] A la derecha se ve otro condensador de aspecto similar con la parte superior rosa. [cite: 37]</li>
+                <li><strong>Circuitos Integrados (CI):</strong> Se ven varios chips rectangulares negros con múltiples pines. [cite: 38, 39, 40] Estos son circuitos integrados que realizan diversas funciones en la placa base. [cite: 38, 39, 40] Sin marcas específicas claramente legibles, es difícil determinar sus funciones exactas (p. ej., regulador de voltaje, amplificador, puerta lógica). [cite: 40]</li>
+                <li><strong>MOSFET o transistores:</strong> Los componentes más pequeños, negros y de tres patas podrían ser MOSFET (transistores de efecto de campo de semiconductor de óxido metálico) u otros tipos de transistores. [cite: 41, 42, 43] Estos son dispositivos semiconductores que se utilizan para conmutar y amplificar señales electrónicas. [cite: 41, 42, 43] Se encuentran comúnmente en circuitos de regulación de potencia. [cite: 43]</li>
+                <li><strong>Conectores:</strong> A la izquierda se ve parte de un conector con varios pines, etiquetado como "17022a" y "ELTK". [cite: 43, 44, 45, 46, 47] Probablemente se trate de un conector para un cable plano u otra conexión placa a placa. [cite: 44, 45, 46, 47]</li>
+                <li><strong>Pistas y vías:</strong> Las líneas verdes de la placa son pistas de cobre que conducen la electricidad entre los diferentes componentes. [cite: 45, 46, 47] Los pequeños orificios, algunos rellenos de metal, son vías que permiten las conexiones eléctricas entre las diferentes capas de la placa de circuito multicapa. [cite: 45, 46, 47]</li>
+                <li><strong>Tornillos y puntos de montaje:</strong> la evidencia de orificios para tornillos y puntos de montaje sugiere cómo esta parte de la placa base está asegurada dentro del chasis de la computadora portátil. [cite: 45, 46, 47]</li>
+            </ul>
+        </section>
+
+        <section id="nvidia-gpu">
+            <h2>NVIDIA GeForce GTX 950M GPU</h2>
+            <img src="Imagen de WhatsApp 2025-03-29 a las 14.44.08_3c9e855e.jpg" alt="NVIDIA GeForce GTX 950M GPU">
+            <p>Características principales de la NVIDIA GeForce GTX 950M (basada en el prefijo N16S-GT1): [cite: 48, 49, 50, 51, 52, 53]</p>
+            <ul>
+                <li><strong>Arquitectura:</strong> Probablemente basada en la arquitectura Maxwell de NVIDIA, conocida por su eficiencia energética. [cite: 48, 49, 50, 51, 52, 53]</li>
+                <li><strong>Rendimiento:</strong> Se considera una GPU móvil dedicada de nivel de entrada a rango medio capaz de manejar muchos juegos en configuraciones medias a altas con resoluciones de 1366x768 o 1600x900. [cite: 48, 49, 50, 51, 52, 53]</li>
+                <li><strong>Memoria:</strong> Generalmente se combina con memoria GDDR5 en una interfaz de 128 bits. [cite: 50, 51, 52, 53] La capacidad exacta de memoria (2 GB o 4 GB) puede variar según el modelo de portátil. [cite: 51, 52, 53]</li>
+                <li><strong>Núcleos CUDA:</strong> cuenta con una determinada cantidad de núcleos CUDA (unidades de procesamiento paralelo de NVIDIA) que aceleran la representación de gráficos y otras tareas de computación paralela. [cite: 52, 53]</li>
+                 <li><strong>Consumo de energía:</strong> Diseñado para dispositivos móviles, tiene un consumo de energía moderado en comparación con las GPU de portátiles de gama alta. [cite: 53]</li>
+            </ul>
+        </section>
+
+        <section id="intel-i5-processor">
+            <h2>Intel Core i5-2410M Processor</h2>
+            <img src="Imagen de WhatsApp 2025-03-29 a las 14.53.07_a15b7afa.jpg" alt="Intel Core i5-2410M Processor">
+            <ul>
+                <li><strong>i5 09 SR04R:</strong> Este es el identificador de clave. [cite: 54, 55, 56, 57, 58, 59] "i5" indica que se trata de un procesador Intel Core i5. [cite: 55, 56, 57, 58, 59] "SR04R" es el código sSpec (también conocido como código de especificación o código de producto). [cite: 56, 57, 58, 59] Este es un identificador único para una versión y configuración específicas de un procesador Intel. [cite: 56, 57, 58, 59]</li>
+                <li><strong>V113A578:</strong> Es probable que sea un número de lote o un código de seguimiento de fabricación. [cite: 57, 58, 59]</li>
+                <li><strong>(intel) (logotipo):</strong> Confirma que el fabricante es Intel. [cite: 58, 59] 35111126A: Otro número de fabricación o seguimiento. [cite: 58, 59]</li>
+                <li><strong>0201:</strong> Posiblemente un código de fecha u otro identificador interno. [cite: 59]</li>
+                <li><strong>Investigando el código sSpec SR04R:</strong> El código Intel sSpec SR04R corresponde al procesador móvil Intel Core i5-2410M. [cite: 60, 61]</li>
+                <li><strong>Especificaciones clave del procesador Intel Core i5-2410M:</strong> [cite: 61]
+                    <ul>
+                        <li><strong>Nombre en clave:</strong> Sandy Bridge</li>
+                        <li><strong>Litografía:</strong> 32 nm</li>
+                        <li><strong>Núcleos de CPU:</strong> 2</li>
+                        <li><strong>Hilos:</strong> 4</li>
+                        <li><strong>Velocidad del reloj base:</strong> 2,30 GHz</li>
+                        <li><strong>Frecuencia máxima de turbo:</strong> 2,90 GHz</li>
+                        <li><strong>Intel HD Graphics 3000:</strong> Gráficos integrados</li>
+                        <li><strong>TDP (Potencia de diseño térmico):</strong> 35 W</li>
+                        <li><strong>Zócalo:</strong> PPGA988 / Zócalo G2</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="cpu-pins">
+            <h2>CPU - Lado de los Pines</h2>
+            <img src="Imagen de WhatsApp 2025-03-29 a las 14.53.07_cd741de7.jpg" alt="CPU - Lado de los Pines">
+            <p>La imagen muestra la parte inferior de una CPU (Unidad Central de Procesamiento) con una matriz de pines. [cite: 62, 63, 64]</p>
+            <ul>
+                <li><strong>Alta densidad de pines:</strong> el procesador tiene una matriz de pines muy densa, lo cual es característico de las CPU modernas. [cite: 62, 63, 64]</li>
+                <li><strong>Forma rectangular:</strong> la forma general de la matriz de cuadrícula de pines (PGA) es rectangular. [cite: 63, 64]</li>
+                <li><strong>Pines faltantes:</strong> claramente hay áreas donde faltan pines, lo cual es común y parte del diseño específico del zócalo y la funcionalidad del procesador. [cite: 64]</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Diego Armando Lozano Perez</p>
+    </footer>
+</body>
+</html>
